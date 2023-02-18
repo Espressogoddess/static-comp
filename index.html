@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Static Comp</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Static Comp</title>
 </head>
+
 <body>
-    
+  <header>
+    <input class="search" type="text" id="search-bar" name="search-bar" placeholder="Search for a job, task, or resume">
+  </header>
+  <title>Customer Service Representative</title>
+  <nav  class="flex-col d-flex">
+    <section class="nav-section profile">
+      <img class="profile-img" src="./assets/amber.jpg" alt="Amber">
+      <button>Amber Shipley <img class="triangle" src="./assets/down-arrow.png" alt="down arrow"></button>
+    </section>
+    <section class="nav-section flex-col d-flex">
+      <h3>Main</h3>
+      <button><img class="menu-icon" src="./assets/home.png" alt="home symbol"> HOME</button>
+      <button><img class="menu-icon" src="./assets/briefcase.png" alt="briefcase symbol"> JOBS</button>
+      <button><img class="menu-icon" src="./assets/document.png" alt="document symbol">RESUMES</button>
+      <button><img class="menu-icon" src="./assets/tasks.png" alt="to do list symbol">TASKS</button>
+      <button><img class="menu-icon" src="./assets/calendar.png" alt="calendar symbol">CALENDAR</button>
+    </section>
+    <section class="nav-section flex-col d-flex">
+      <h3>Admin</h3>
+      <button><img class="menu-icon" src="./assets/home.png" alt="home symbol"> USERS</button>
+      <button><img class="menu-icon" src="./assets/briefcase.png" alt="briefcase symbol"> LOCATIONS</button>
+      <button><img class="menu-icon" src="./assets/document.png" alt="document symbol">WORKFLOWS</button>
+      <button><img class="menu-icon" src="./assets/tasks.png" alt="to do list symbol">JOB BOARDS</button>
+      <button><img class="menu-icon" src="./assets/calendar.png" alt="calendar symbol">SOCIAL</button>
+    </section>
+    <section class="nav-section flex-col d-flex">
+      <h3>Categories</h3>
+      <div class="check-boxes">
+        <input type="checkbox" id="admin" name="admin" value="Administration">
+        <label for="admin"> Administration</label><br>
+      </div>
+      <div class="check-boxes">
+        <input type="checkbox" id="design" name="design" value="Design">
+        <label for="design">Design</label><br>
+      </div>
+      <div class="check-boxes">
+        <input type="checkbox" id="exec" name="exec" value="Executive">
+        <label for="exec">Executive</label><br>
+      </div>
+      <div class="check-boxes">
+        <input type="checkbox" id="hr" name="hr" value="Human Resources">
+        <label for="hr">Human Resources</label><br>
+      </div>
+
+    </section>
+  </nav>
 </body>
 <script></script>
+
 </html>
