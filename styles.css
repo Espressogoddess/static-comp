@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: rgb(45, 66, 87);
+    background-color: rgb(170, 184, 199);
 }
 
 .menu-icon {
@@ -86,12 +86,21 @@ button {
     font-weight: bold;
     margin-left: 35px;
     font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.tab:hover {
+    border-bottom: solid 2.5px dodgerblue;
 }
 
 .nav-section a {
     padding: 8px 20px;
     font-size: 13px;
     margin-left: 5px;
+}
+
+a:hover {
+    color: dodgerblue;
 }
 
 .check-boxes {
@@ -200,6 +209,86 @@ header button:hover {
 
 .triangle {
     padding-bottom: 4px;
+}
+
+.charts {
+    justify-content: space-around;
+    margin: 0 30px;
+}
+
+.main-content {
+    background-color: rgb(227, 224, 224);
+}
+
+.pies-and-totals {
+    align-items: center;
+}
+.line-button {
+    height: 30px;
+    align-items: center;
+}
+
+.graphs {
+    height: 180px;
+    width: auto;
+}
+
+.line {
+    background-color: slategray;
+    height: 1px;
+    margin: 30px;
+    width: 45%;
+}
+
+a .tiny {
+    border: 1px solid slategray;
+    border-radius: 50%;
+    padding: 9px;
+    background-color: whitesmoke;
+}
+
+.apps-per-day {
+    color: black;
+    border: slategray 1px solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 180px;
+    height: 25px;
+    padding-top: 4.5px;
+    margin-top: 12px;
+}
+
+.totals {
+    color: black;
+    border: slategray 1px solid;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 235px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4.5px;
+}
+
+.pies p {
+    font-size: 31px;
+    background-image: url('./assets/pie-crust.png');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.word-in-pie {
+    display: block;
+    font-size: 15px;
+}
+
+.graphs-and-apps {
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
 }
 
 /*button {
