@@ -1,5 +1,5 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html {
@@ -7,12 +7,11 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: rgb(170, 184, 199);
     height: 100%;
 }
 
 nav {
-    background-color: rgb(170, 184, 199);
     width: 170px;
     height: 100%;
 }
@@ -64,6 +63,7 @@ nav {
 main {
     width: 100%;
     height: 100%;
+    background-color: whitesmoke;
 }
 
 .d-flex {
@@ -150,12 +150,12 @@ h1 {
 }
 
 .right-side-buttons {
-    --right-side-buttons: 1px solid slategrey;
     align-items: center;
 }
 
 .right-side-buttons a {
     border: var(--right-side-buttons);
+    --right-side-buttons: 1px slategray solid;
     border-radius: 50%;
     padding: 8px;
     margin: 5px;
@@ -252,7 +252,7 @@ header button:hover {
 .line {
     background-color: slategray;
     height: 1px;
-    margin: 30px;
+    margin: 20px;
     width: 45%;
 }
 
@@ -265,10 +265,10 @@ tr .line {
 }
 
 .button {
-    width: 220px;
+    width: 255px;
     height: 43px;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 3px;
 }
 
@@ -367,6 +367,7 @@ table {
     padding-top: 30px;
     justify-content: center;
     align-items: space-around;
+    padding-bottom: 50px;
 }
 
 thead tr th {
@@ -379,7 +380,7 @@ thead tr th {
 td {
     width: 500px;
     padding: 15px;
-
+    font-size: 13px;
 }
 
 th a img {
@@ -395,7 +396,7 @@ th a {
 
 tr {
     min-height: fit-content;
-    height: 75px;
+    height: 70px;
 }
 
 .col-head {
@@ -413,6 +414,54 @@ tr {
     color: white;
 }
 
+.links {
+    width: 255px;
+    align-items: space-between;
+}
+
+.links p {
+    font-size: 11.5px;
+}
+
+.link {
+    width: 195px;
+    height: 30px;
+    margin-right: 0;
+    border: 1px slategray solid;
+    padding-right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+.link-btn {
+    width: 50px;
+    height: 34px;
+    background-color: rgb(145, 241, 209);
+    margin-left: -5px;
+    border-radius: 0 3px 3px 0;
+}
+
+.email {
+ width: 250px;
+ border-radius: 3px;
+}
+
+.link-line {
+    background-color: slategray;
+    height: 1px;
+    margin: 30px 0 30px 0;
+    width: 98%;
+
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-weight:lighter
+}
+
+.link-line-button a {
+    align-items: center;
+    margin: 10px;
+}
 /*button {
     display: inline-block;
     border: none;
